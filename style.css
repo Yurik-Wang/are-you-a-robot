@@ -20,7 +20,7 @@ body {
 
 .title h1 {
   letter-spacing: 0.75px;
-  color: blueviolet;
+  color: rgb(0, 31, 132);
 }
 
 .wrapper {
@@ -28,8 +28,8 @@ body {
 }
 
 .chat {
-  background: white;
-  box-shadow: 10px 10px 0px blueviolet;
+  background: rgb(71, 71, 71);
+  box-shadow: 10px 10px 0px rgb(22, 0, 111);
   overflow: scroll;
   height: 100%;
   display: flex;
@@ -72,8 +72,8 @@ body {
   margin-right: 20px;
   margin-left: auto;
   background: white;
-  border: 1px solid blueviolet;
-  color: blueviolet;
+  border: 1px solid rgb(0, 11, 164);
+  color: rgb(0, 3, 177);
 }
 
 .actions {
@@ -97,7 +97,7 @@ body {
 }
 
 input:focus {
-  border-bottom: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(9, 0, 181);
 }
 
 @media all and (min-width: 720px) {

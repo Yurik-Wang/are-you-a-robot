@@ -7,18 +7,46 @@
 % hello what is your name
 - Nice to meet you <formal>!
 
++ knock knock
+- Who's there?
+
++ *
+% who is there
+- <star> who?
+
++ *
+% * who
+- This joke is very funny sir
+
++ i have a dog 
+- Really? What color is it?
+
++ (@colors)
+% what color is it 
+- Lovely, but I think black and white would suit you better, sir
+
 + my name is *
-- Nice to meet you <star>
-- Nice meeting you <star>
+- <set name=<star>>It is good to see you sir 
+
++ what is my name
+* <get name> == undefined => You never told me your name.
+- Your name is <get name>. Sir, my health system detects that your brain is gradually shrinking.
+
++ i bought a new *
+- This sounds like good news. What's the experience like with the new <star>?
+
++ *
+% this sounds like good news what is the experience like with the new *
+- In the latest database this is shown to be a great product.
 
 + thank you
-- You are welcome
-- Welcome
+- It is my pleasure to serve you, sir
+- Anytime, sir
+- You are welcome, sir
 - No problem
 - No worries!
 
 + *
-- Sorry did not get what you said
-- I am afraid that I can not understand you
+- Sorry sir/miss, my system is not written for this type of program
 - Sorry can you please elaborate that for me
 - I don't get it!
